@@ -12,7 +12,21 @@
     <lastmod>2025-12-06T21:05:32-08:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/making-a-headless-wordpress-next-ecommerce/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tag1/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tag2/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/tech/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url>
 </urlset>
