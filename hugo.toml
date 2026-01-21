@@ -125,14 +125,18 @@ home = ["HTML", "RSS", "Algolia"]
   href = "https://unsplash.com"
   
   [[params.additional_menus]]
-  title =  "ARCHIVE"
-  href =  "/archive/"
+  #title =  "ARCHIVE"
+  #href =  "/archive/"
   [[params.additional_menus]]
-  title =  "NOTES"
-  href =  "/notes/"
+  #title =  "NOTES"
+  #href =  "/notes/"
+  [[params.additional_menus]]
+  title =  "Web Development"
+  href =  "https://www.singularityplanet.com"
   [[params.additional_menus]]
   title =  "ABOUT"
   href =  "https://anthonycavuoti.com"
+
 
 [outputFormats.Algolia]
 baseName = "algolia"
