@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Singularity Blogs</title>
-    <link>/post/</link>
+    <link>//localhost:1313/post/</link>
     <description>Recent content in Posts on Singularity Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Dec 2025 21:05:32 -0800</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anthonys Arch Setup</title>
-      <link>/post/anthonys_arch_setup/</link>
+      <link>//localhost:1313/post/anthonys_arch_setup/</link>
       <pubDate>Sat, 06 Dec 2025 21:05:32 -0800</pubDate>
-      <guid>/post/anthonys_arch_setup/</guid>
+      <guid>//localhost:1313/post/anthonys_arch_setup/</guid>
       <description>&lt;h1 id=&#34;anthonys-arch-setup&#34;&gt;Anthonys Arch Setup&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-boot-into-arch-and-run-the-installer&#34;&gt;1. Boot Into Arch and Run the Installer&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create an Arch USB using Etcher or Ventoy.&lt;/li&gt;&#xA;&lt;li&gt;Boot the laptop from USB.&lt;/li&gt;&#xA;&lt;li&gt;When the terminal loads, run:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;archinstall&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;install-settings&#34;&gt;Install Settings&lt;/h3&gt;&#xA;&lt;p&gt;Here is what I did for these settings. Some are abvious and I&amp;rsquo;m not trying to be condisending. Think of this section as a checklist&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Archinstall language&lt;/em&gt;&#xA;Select_language = &amp;ldquo;English&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Locales&lt;/em&gt;&#xA;Keyboard_layout = &amp;ldquo;us&amp;rdquo;&#xA;Locale_language = &amp;rsquo;en_US.UTF-8&amp;quot;&#xA;Locale encoding = UTF-8&lt;/p&gt;</description>
     </item>
   </channel>

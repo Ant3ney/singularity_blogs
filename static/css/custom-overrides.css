@@ -1,0 +1,20 @@
+.intro-header .site-heading {
+	color: #1c3738;
+}
+
+.intro-header .logomaker_container_main{
+	display: flex;
+	justify-content: center;
+}
+
+.intro-header .logomaker_container_main .site_title_header {
+	margin: auto 0 auto 1rem;
+	font-size: 3.5rem;
+}
+
+.intro-header .logomaker_container_main .icon_image {
+	width: 90px;
+	height: auto;
+
+}
+
