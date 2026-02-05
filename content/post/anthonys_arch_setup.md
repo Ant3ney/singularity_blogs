@@ -19,62 +19,68 @@ archinstall
 ### Install Settings
 Here is what I did for these settings. Some are abvious and I'm not trying to be condisending. Think of this section as a checklist
 
-*Archinstall language*
+#### *Archinstall language*
 Select_language = "English"
 
-*Locales*
+#### *Locales*
 Keyboard_layout = "us"
 Locale_language = 'en_US.UTF-8"
 Locale encoding = UTF-8
 
-*Mirrors and repositories*
+#### *Mirrors and repositories*
 Do nothing
 
-*Disk configuration*
+#### *Disk configuration*
 Select "Partitioning"
 Then select "Use a best-effort default partition layout"
 Select the main hard drive
-Select the filesystem ext4. Select btrfs if you want snapshot and rollback support but this type is less battletested.
+Select the filesystem ext4. Select btrfs if you want better snapshot and rollback support but this type is less battletested.
+It will ask if you want to make a seperate partition for /home. Chose no unless you know what your doing
 
-*Swap*
+#### *Swap*
 Do nothing
 
-*Bootloader*
+#### *Bootloader*
 Bootloader = "Grub"
 
-*Hostname*
+#### *Kernels*
+Do nothing
+
+#### *Hostname*
 Hostname = "anthopc" // name this whatevery you want your pc name to be
 
-*Authentication*
+#### *Authentication*
 Select "Root password"
+Set the root passowrd
+Select User account
+Select Add a user
 type a root password
 Select "add new user"
 Type a user name
 type password for that user
+Do nothing for U2F login setup
 
 
-*Profile*
+#### *Profile*
 Select "Type"
 Select "Desktop"
 Select "KDE Plasma"
 
-*Applications*
+#### *Applications*
 Select "Bluetooth"
 Select "Yes"
 
-*Kernels*
+#### *Network Configuration*
 
-*Network Configuration*
+#### *Additional packages*
 
-*Additional packages*
-
-*Timezone*
+#### *Timezone*
 Select "America/Los_Angeles"
 
-*Automatic time sync (NTP)*
+#### *Automatic time sync (NTP)*
 Select "Yes"
 
-Save the configuration
+#### Save the configuration
 Then press Install
 
 ### Misc
