@@ -89,7 +89,18 @@ If it asks you to if you want to create a seperate partitoin for /home say no un
 Use X11 if it recomends it to you and your using a cheap toster computer
 
 ## Wifi
+Run these commands
+```bash
+sudo systemctl enable NetworkManager
+```
+```bash
+sudo systemctl start NetworkManager
+```
 Go to System Settings
 Select Connections
 Press the Pluss Button.
 You can use this menu to add Wifi Manualy if you don't see your network in this menu. It may be needed to do so manualy. Your on linux after all.
+
+## Install WhiteSur Theme
+As you know, I have a scew lose in my head and like to make my computer setups look like apple computers. I love it when people say you use mac, nice... Wait a minute is that mac. And then they get super confused as to what I'm using. White sur is perfect for that.
+
