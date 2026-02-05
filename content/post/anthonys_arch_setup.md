@@ -33,7 +33,8 @@ Do nothing
 *Disk configuration*
 Select "Partitioning"
 Then select "Use a best-effort default partition layout"
-Lelect the main hard drive
+Select the main hard drive
+Select the filesystem ext4. Select btrfs if you want snapshot and rollback support but this type is less battletested.
 
 *Swap*
 Do nothing
