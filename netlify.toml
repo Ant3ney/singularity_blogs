@@ -3,3 +3,15 @@
   publish = "public"
 [build.environment]
   HUGO_VERSION = "0.152.2"
+
+[[redirects]]
+  from = "/about"
+  to = "https://anthonycavuoti.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about/"
+  to = "https://anthonycavuoti.com"
+  status = 301
+  force = true

@@ -20,8 +20,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="//localhost:1313///img/sbg.webp">
-    <meta property="twitter:image" content="//localhost:1313///img/sbg.webp" />
+    <meta property="og:image" content="http://localhost:1313///img/sbg.webp">
+    <meta property="twitter:image" content="http://localhost:1313///img/sbg.webp" />
     
 
     
@@ -36,7 +36,7 @@
     <meta property="twitter:description" content="Singularity Blogs" />
     
 
-    <meta property="og:url" content="//localhost:1313/post/anthonys_arch_setup/" />
+    <meta property="og:url" content="http://localhost:1313/post/anthonys_arch_setup/" />
 
     
     <meta property="twitter:card" content="summary" />
@@ -67,7 +67,7 @@
     
     
     
-    <link rel="stylesheet" href="//localhost:1313/css/custom-overrides.css">
+    <link rel="stylesheet" href="http://localhost:1313/css/custom-overrides.css">
 
     
     <script src="/js/jquery.min.js"></script>
@@ -207,54 +207,66 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>archinstall
 </span></span></code></pre></div><h3 id="install-settings">Install Settings</h3>
 <p>Here is what I did for these settings. Some are abvious and I&rsquo;m not trying to be condisending. Think of this section as a checklist</p>
-<p><em>Archinstall language</em>
-Select_language = &ldquo;English&rdquo;</p>
-<p><em>Locales</em>
-Keyboard_layout = &ldquo;us&rdquo;
+<h4 id="archinstall-language"><em>Archinstall language</em></h4>
+<p>Select_language = &ldquo;English&rdquo;</p>
+<h4 id="locales"><em>Locales</em></h4>
+<p>Keyboard_layout = &ldquo;us&rdquo;
 Locale_language = &rsquo;en_US.UTF-8&quot;
 Locale encoding = UTF-8</p>
-<p><em>Mirrors and repositories</em>
-Do nothing</p>
-<p><em>Disk configuration</em>
-Select &ldquo;Partitioning&rdquo;
+<h4 id="mirrors-and-repositories"><em>Mirrors and repositories</em></h4>
+<p>Do nothing</p>
+<h4 id="disk-configuration"><em>Disk configuration</em></h4>
+<p>Select &ldquo;Partitioning&rdquo;
 Then select &ldquo;Use a best-effort default partition layout&rdquo;
-Lelect the main hard drive</p>
-<p><em>Swap</em>
-Do nothing</p>
-<p><em>Bootloader</em>
-Bootloader = &ldquo;Grub&rdquo;</p>
-<p><em>Hostname</em>
-Hostname = &ldquo;anthopc&rdquo; // name this whatevery you want your pc name to be</p>
-<p><em>Authentication</em>
-Select &ldquo;Root password&rdquo;
+Select the main hard drive
+Select the filesystem ext4. Select btrfs if you want better snapshot and rollback support but this type is less battletested.
+It will ask if you want to make a seperate partition for /home. Chose no unless you know what your doing</p>
+<h4 id="swap"><em>Swap</em></h4>
+<p>Do nothing</p>
+<h4 id="bootloader"><em>Bootloader</em></h4>
+<p>Bootloader = &ldquo;Grub&rdquo;</p>
+<h4 id="kernels"><em>Kernels</em></h4>
+<p>Do nothing</p>
+<h4 id="hostname"><em>Hostname</em></h4>
+<p>Hostname = &ldquo;anthopc&rdquo; // name this whatevery you want your pc name to be</p>
+<h4 id="authentication"><em>Authentication</em></h4>
+<p>Select &ldquo;Root password&rdquo;
+Set the root passowrd
+Select User account
+Select Add a user
 type a root password
 Select &ldquo;add new user&rdquo;
 Type a user name
-type password for that user</p>
-<p><em>Profile</em>
-Select &ldquo;Type&rdquo;
+type password for that user
+Do nothing for U2F login setup</p>
+<h4 id="profile"><em>Profile</em></h4>
+<p>Select &ldquo;Type&rdquo;
 Select &ldquo;Desktop&rdquo;
 Select &ldquo;KDE Plasma&rdquo;</p>
-<p><em>Applications</em>
-Select &ldquo;Bluetooth&rdquo;
+<h4 id="applications"><em>Applications</em></h4>
+<p>Select &ldquo;Bluetooth&rdquo;
 Select &ldquo;Yes&rdquo;</p>
-<p><em>Kernels</em></p>
-<p><em>Network Configuration</em></p>
-<p><em>Additional packages</em></p>
-<p><em>Timezone</em>
-Select &ldquo;America/Los_Angeles&rdquo;</p>
-<p><em>Automatic time sync (NTP)</em>
-Select &ldquo;Yes&rdquo;</p>
-<p>Save the configuration
-Then press Install</p>
+<h4 id="network-configuration"><em>Network Configuration</em></h4>
+<h4 id="additional-packages"><em>Additional packages</em></h4>
+<h4 id="timezone"><em>Timezone</em></h4>
+<p>Select &ldquo;America/Los_Angeles&rdquo;</p>
+<h4 id="automatic-time-sync-ntp"><em>Automatic time sync (NTP)</em></h4>
+<p>Select &ldquo;Yes&rdquo;</p>
+<h4 id="save-the-configuration">Save the configuration</h4>
+<p>Then press Install</p>
 <h3 id="misc">Misc</h3>
 <p>If it asks you to if you want to create a seperate partitoin for /home say no unless you know what your doing</p>
 <p>Use X11 if it recomends it to you and your using a cheap toster computer</p>
 <h2 id="wifi">Wifi</h2>
-<p>Go to System Settings
+<p>Run these commands</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl <span style="color:#8be9fd;font-style:italic">enable</span> NetworkManager
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl start NetworkManager
+</span></span></code></pre></div><p>Go to System Settings
 Select Connections
 Press the Pluss Button.
 You can use this menu to add Wifi Manualy if you don&rsquo;t see your network in this menu. It may be needed to do so manualy. Your on linux after all.</p>
+<h2 id="install-whitesur-theme">Install WhiteSur Theme</h2>
+<p>As you know, I have a scew lose in my head and like to make my computer setups look like apple computers. I love it when people say you use mac, nice&hellip; Wait a minute is that mac. And then they get super confused as to what I&rsquo;m using. White sur is perfect for that.</p>
 
             
              
@@ -278,13 +290,13 @@ You can use this menu to add Wifi Manualy if you don&rsquo;t see your network in
     
 	
     <section class="visible-md visible-lg">
-	
-        <div class="short-about">
-            
-            <a href="/about">
-               <img src="/img/prp.webp" alt="avatar" style="cursor: pointer" />
-            </a>
-            
+		
+	        <div class="short-about">
+	            
+	            <a href="https://anthonycavuoti.com">
+	               <img src="/img/prp.webp" alt="avatar" style="cursor: pointer" />
+	            </a>
+	            
             
                 <p>Anthony Cavuoti. Web Developer. Owner of Singularity Development</p>
             
@@ -381,7 +393,13 @@ You can use this menu to add Wifi Manualy if you don&rsquo;t see your network in
         <h5>LAST POSTS</h5>
         <ul>
         
+            <li><a href="/post/everyone_is_broken/">Anthonys Arch Setup</a></li>
+        
             <li><a href="/post/anthonys_arch_setup/">Anthonys Arch Setup</a></li>
+        
+            <li><a href="/post/phplaravel/">An Example Post</a></li>
+        
+            <li><a href="/post/howtoorganizeyourfiles/">How To Organize Your Files</a></li>
         
             <li><a href="/post/making-a-headless-wordpress-next-ecommerce/">Making a Headless WordPress Next E commerce Site</a></li>
         
