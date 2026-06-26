@@ -61,3 +61,37 @@
 		font-size: 22px;
 	}
 }
+
+@media only screen and (max-width: 767px) {
+	.navbar-custom {
+		position: fixed;
+		background: rgba(255, 255, 255, 0.97);
+		border-bottom: 1px solid rgba(28, 55, 56, 0.16);
+		box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+	}
+
+	.navbar-custom .navbar-brand,
+	.navbar-custom .navbar-brand:hover,
+	.navbar-custom .navbar-brand:focus {
+		color: #1c3738;
+	}
+
+	.navbar-default.navbar-custom .navbar-toggle {
+		border: 1px solid rgba(28, 55, 56, 0.28);
+		background: #ffffff;
+	}
+
+	.navbar-default.navbar-custom .navbar-toggle:hover,
+	.navbar-default.navbar-custom .navbar-toggle:focus,
+	.navbar-default.navbar-custom .navbar-toggle:active {
+		background: #e9f0f0;
+	}
+
+	.navbar-default.navbar-custom .navbar-toggle .icon-bar {
+		background-color: #1c3738;
+	}
+
+	.navbar-custom #huxblog_navbar a {
+		color: #1c3738;
+	}
+}
