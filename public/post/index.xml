@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Singularity Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Jan 2026 09:05:32 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Anthonys Arch Setup</title>
-      <link>http://localhost:1313/post/everyone_is_broken/</link>
-      <pubDate>Mon, 05 Jan 2026 09:05:32 -0800</pubDate>
-      <guid>http://localhost:1313/post/everyone_is_broken/</guid>
-      <description></description>
+      <title>Quick Projects To Make Your Computer More Productive</title>
+      <link>http://localhost:1313/post/quick-projects-for-productivity/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/quick-projects-for-productivity/</guid>
+      <description>&lt;h1 id=&#34;quick-projects-to-make-your-computer-more-productive&#34;&gt;Quick Projects To Make Your Computer More Productive&lt;/h1&gt;&#xA;&lt;p&gt;Sometimes you have just enough time to build something, but not enough time to start a giant app. That is the perfect time to make small projects that improve how you work every day.&lt;/p&gt;&#xA;&lt;p&gt;The best quick projects do one of four things:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;remove a repeated manual step&lt;/li&gt;&#xA;&lt;li&gt;make your computer more reliable&lt;/li&gt;&#xA;&lt;li&gt;turn a skill you want to learn into a real practice loop&lt;/li&gt;&#xA;&lt;li&gt;protect your work from mistakes or bad security assumptions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here are project ideas worth making when you have free time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Anthonys Arch Setup</title>
@@ -21,13 +21,6 @@
       <pubDate>Sat, 06 Dec 2025 21:05:32 -0800</pubDate>
       <guid>http://localhost:1313/post/anthonys_arch_setup/</guid>
       <description>&lt;h1 id=&#34;anthonys-arch-setup&#34;&gt;Anthonys Arch Setup&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-boot-into-arch-and-run-the-installer&#34;&gt;1. Boot Into Arch and Run the Installer&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create an Arch USB using Etcher or Ventoy.&lt;/li&gt;&#xA;&lt;li&gt;Boot the laptop from USB.&lt;/li&gt;&#xA;&lt;li&gt;When the terminal loads, run:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;archinstall&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;install-settings&#34;&gt;Install Settings&lt;/h3&gt;&#xA;&lt;p&gt;Here is what I did for these settings. Some are abvious and I&amp;rsquo;m not trying to be condisending. Think of this section as a checklist&lt;/p&gt;&#xA;&lt;h4 id=&#34;archinstall-language&#34;&gt;&lt;em&gt;Archinstall language&lt;/em&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Select_language = &amp;ldquo;English&amp;rdquo;&lt;/p&gt;&#xA;&lt;h4 id=&#34;locales&#34;&gt;&lt;em&gt;Locales&lt;/em&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Keyboard_layout = &amp;ldquo;us&amp;rdquo;&#xA;Locale_language = &amp;rsquo;en_US.UTF-8&amp;quot;&#xA;Locale encoding = UTF-8&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>An Example Post</title>
-      <link>http://localhost:1313/post/phplaravel/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/phplaravel/</guid>
-      <description></description>
     </item>
     <item>
       <title>How To Organize Your Files</title>

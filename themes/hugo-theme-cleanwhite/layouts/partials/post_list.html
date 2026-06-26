@@ -1,23 +1,24 @@
 <!-- post list -->
 <div data-pagefind-ignore="all">
 {{ range $index, $element := $.Paginator.Pages }}
-<div class="post-preview">
+{{ $isWarningPost := in .RawContent "This blog is still being made" }}
+<div class="post-preview{{ if $isWarningPost }} post-preview-warning{{ end }}">
     <a href="{{ .Permalink }}">
         <h2 class="post-title">
-            {{ .Title }}
+            {{ if $isWarningPost }}Warning: {{ end }}{{ .Title }}
         </h2>
 	{{with .Params.subtitle }}
         <h3 class="post-subtitle">
             {{ . }}
         </h3>
 	{{ end }}
-        <div class="post-content-preview">
-	{{ with .Description }}
-            {{ . }}
-        {{ else }}
-            {{ .Summary}}
-       {{ end }}
-        </div>
+	        <div class="post-content-preview">
+		{{ with .Description }}
+	            {{ . | plainify | truncate 280 }}
+	        {{ else }}
+	            {{ .Summary | plainify | truncate 280 }}
+	       {{ end }}
+	        </div>
     </a>
     <p class="post-meta">
     {{ if .Params.metadata }}

@@ -18,3 +18,46 @@
 
 }
 
+.post-preview > a {
+	display: block;
+}
+
+.post-preview .post-content-preview {
+	min-height: 5.8em;
+	max-height: 5.8em;
+	overflow: hidden;
+	font-size: 15px;
+	font-style: normal;
+	line-height: 1.45;
+	color: #6f6f6f;
+}
+
+@media only screen and (min-width: 768px) {
+	.post-preview .post-content-preview {
+		font-size: 16px;
+	}
+}
+
+.post-preview.post-preview-warning {
+	opacity: 0.58;
+}
+
+.post-preview.post-preview-warning > a,
+.post-preview.post-preview-warning > a:hover,
+.post-preview.post-preview-warning > a:focus,
+.post-preview.post-preview-warning .post-content-preview,
+.post-preview.post-preview-warning .post-content-preview:hover,
+.post-preview.post-preview-warning > .post-meta {
+	color: #8a8a8a;
+}
+
+.post-preview.post-preview-warning .post-title {
+	font-size: 19px;
+	font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+	.post-preview.post-preview-warning .post-title {
+		font-size: 22px;
+	}
+}

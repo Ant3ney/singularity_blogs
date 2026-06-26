@@ -3,22 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-05T09:05:32-08:00</lastmod>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/everyone_is_broken/</loc>
-    <lastmod>2026-01-05T09:05:32-08:00</lastmod>
+    <loc>http://localhost:1313/tags/automation/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-01-05T09:05:32-08:00</lastmod>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/productivity/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/projects/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/quick-projects-for-productivity/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tech/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/anthonys_arch_setup/</loc>
     <lastmod>2025-12-06T21:05:32-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/phplaravel/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/howtoorganizeyourfiles/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
@@ -30,12 +42,6 @@
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tag2/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url>
 </urlset>
