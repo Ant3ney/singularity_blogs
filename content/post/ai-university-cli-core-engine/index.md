@@ -27,6 +27,12 @@ The long-term version of the idea is more ambitious: a VR university simulator w
 
 The CLI and core engine are the content factory.
 
+## Current Implementation
+
+There is now a CLI implementation in progress: [Ant3ney/aiu-cli](https://github.com/Ant3ney/aiu-cli).
+
+It is not the finished AI University platform yet, and the repo is still being completed. But the core command-line engine is far enough along to share: it is where the idea from this post is turning into an actual tool for generating structured course artifacts from prompts and source material.
+
 ## The Problem
 
 AI tools are good at answering questions, but learning is not the same as receiving an answer.
@@ -273,3 +279,5 @@ The first milestone is not to build the university.
 The first milestone is to build the machine that can generate one.
 
 Source concept: AI University CLI/Core Engine PRD.
+
+CLI implementation: [Ant3ney/aiu-cli](https://github.com/Ant3ney/aiu-cli).

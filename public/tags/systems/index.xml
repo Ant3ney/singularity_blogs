@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems on Singularity Blogs</title>
+    <link>/tags/systems/</link>
+    <description>Recent content in Systems on Singularity Blogs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI University CLI Core Engine</title>
+      <link>/post/ai-university-cli-core-engine/</link>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/post/ai-university-cli-core-engine/</guid>
+      <description>&lt;h1 id=&#34;ai-university-cli-core-engine&#34;&gt;AI University CLI Core Engine&lt;/h1&gt;&#xA;&lt;p&gt;AI University is an idea for a learning system that treats a single education prompt as the start of a real course, not the start of a chat thread.&lt;/p&gt;&#xA;&lt;p&gt;The core question is simple:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;What if you could give an AI a learning goal, a folder of materials, or both, and get back a complete university-style course?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Not a summary. Not a list of links. Not a few bullet points.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

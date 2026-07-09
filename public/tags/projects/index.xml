@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Singularity Blogs</title>
-    <link>http://localhost:1313/tags/projects/</link>
+    <link>/tags/projects/</link>
     <description>Recent content in Projects on Singularity Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick Projects To Make Your Computer More Productive</title>
-      <link>http://localhost:1313/post/quick-projects-for-productivity/</link>
+      <link>/post/quick-projects-for-productivity/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/quick-projects-for-productivity/</guid>
+      <guid>/post/quick-projects-for-productivity/</guid>
       <description>&lt;h1 id=&#34;quick-projects-to-make-your-computer-more-productive&#34;&gt;Quick Projects To Make Your Computer More Productive&lt;/h1&gt;&#xA;&lt;p&gt;Sometimes you have just enough time to build something, but not enough time to start a giant app. That is the perfect time to make small projects that improve how you work every day.&lt;/p&gt;&#xA;&lt;p&gt;The best quick projects do one of four things:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;remove a repeated manual step&lt;/li&gt;&#xA;&lt;li&gt;make your computer more reliable&lt;/li&gt;&#xA;&lt;li&gt;turn a skill you want to learn into a real practice loop&lt;/li&gt;&#xA;&lt;li&gt;protect your work from mistakes or bad security assumptions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here are project ideas worth making when you have free time.&lt;/p&gt;</description>
     </item>
   </channel>
