@@ -70,17 +70,19 @@ A responsive image often needs to fill whatever space remains in a component wit
 
 The example uses `100svh` only to give the demonstration a defined vertical area. In a real layout, the surrounding component may already receive its height from a page section, grid track, dialog, carousel, or another parent. The image itself does not need a fixed width or height.
 
-## Why the image overflowed before
+## Why an image may overflow its container
 
-Consider a vertical flex container with a heading, two paragraphs, several gaps, and an image. If the image is a direct child with `height: 100%`, it tries to become as tall as the entire container. The text and gaps still need space of their own, so the combined content becomes taller than the parent:
+In CSS, overflow happens when an element becomes larger than the box meant to contain it. The element may stick out past the box's edges, overlap nearby content, or force part of the layout to become taller or wider than intended.
+
+Imagine a fixed-height profile card with a heading, two paragraphs, several gaps, and an image stacked vertically. You might give the image `height: 100%`, expecting it to fill only the space left below the text. However, `100%` tells the image to use the full height of the card. The heading, paragraphs, and gaps still need space too, so the combined content becomes taller than the card:
 
 ```text
 heading + paragraphs + gaps + image at 100% height > parent height
 ```
 
-The problem is not the image file's aspect ratio. It is that the image was asked to consume the parent's full height instead of only the available height left by its siblings.
+This can happen with any source image, regardless of its aspect ratio. The problem is that the image was asked to consume the parent's full height instead of only the available height left by the other content.
 
-The wrapper fixes this by separating two responsibilities:
+A wrapper fixes this by separating two responsibilities:
 
 - Flexbox decides how much layout space the wrapper receives.
 - The image fills and crops inside that wrapper.
@@ -259,7 +261,7 @@ The width remains fluid, and the aspect ratio supplies a predictable crop area w
 
 ## Common mistakes
 
-### Putting `height: 100%` directly on the original flex child
+### Putting `height: 100%` directly on the image
 
 The image may claim the whole parent height before accounting for headings, paragraphs, gaps, or padding. Let the wrapper participate in flex sizing first.
 
